@@ -213,6 +213,90 @@ header{
     margin-bottom: 10px;
 }
 
+.container-sessao5{
+   background-color: #151515;
+}
+
+.container-sessao5 h1{
+    color: white;
+    font-size: 50px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.container-projetos{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.projeto{
+    border: 2px solid white;
+    box-shadow: #990E22 0px 0px 12px 1px inset, #990E22 0px 0px 12px 1px;
+    width: 250px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+
+
+.container-texto-projetos p{
+    width: 80%;
+    margin: auto;
+}
+
+.container-texto-projetos button{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 2px solid #990E22;
+    background-color: #990E22;
+    box-shadow: #990E22 0px 0px 12px 1px inset, #990E22 0px 0px 12px 1px;
+    font-weight: 600;
+}
+
+.container-texto-projetos button>a{
+   color: white;
+   font-size: 15px;
+}
+
+.container-sessao5 h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.container-call{
+    background-color: #151515;
+    text-align: center;
+}
+
+.container-call button{
+    width: 95%;
+    padding: 20px 0;
+    border-radius: 5px;
+    border: 2px solid #990E22;
+    background-color: #990E22;
+    box-shadow: #990E22 0px 0px 12px 1px inset, #990E22 0px 0px 12px 1px;
+    font-weight: 600;
+    
+}
+
+.container-call img{
+    filter: drop-shadow(2px 2px 1px black);
+    margin-right: 8px;
+}
+
+.container-call button>a {
+
+    color: white;
+    font-size: 28px;
+    filter: drop-shadow(2px 2px 1px black);
+    
+}
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -310,5 +394,15 @@ header{
         text-align: center;
         border-radius: 5px;
     }
+
+    .container-projetos{
+        flex-wrap: wrap;
+        
+    }
+
+    .projeto{
+        width: 95%;
+    }
+    
    
 }
